@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+
+    <ImageView
+        android:id="@+id/sarah"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/baseline_account_circle_24" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sarah"
+        android:id="@+id/search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/savesircel"
+        android:text="Search" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_below="@+id/sarah"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="60dp"
+        android:layout_centerHorizontal="true"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:src="@drawable/fg" />
+
+    <TextView
+        android:id="@+id/recomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="Recommendation"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/search"
+        android:id="@+id/apls"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/savesircel"
+        android:text="Agung Jaya Rental"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/srh"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/apls"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-49dp"
+        android:src="@drawable/baseline_account_circle_24" />
+
+    <Button
+        android:id="@+id/bpls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apls"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/savesircel"
+        android:drawableStart="@drawable/baseline_star_24"
+        android:drawablePadding="10dp"
+        android:text="Agung Jaya Rental"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/xc"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/bpls"
+        android:layout_below="@id/srh"
+        android:layout_marginTop="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-49dp"
+        android:src="@drawable/baseline_account_circle_24" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bpls"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/savesircel"
+        android:text="Agung Jaya Rental"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/xb"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/bpls"
+        android:layout_below="@id/xc"
+        android:layout_marginTop="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-49dp"
+        android:src="@drawable/baseline_account_circle_24" />
+
+    <Button
+        android:id="@+id/searh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/savesircel"
+        android:drawableLeft="@drawable/baseline_home_24"
+        android:drawableTop="@drawable/baseline_brightness_1_24"
+        android:drawableRight="@drawable/baseline_table_rows_24"
+        android:padding="1dp" />
+
+
+    <ImageView
+        android:id="@+id/as"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/searh"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baseline_brightness_1_24" />
+
+    <ImageView
+        android:id="@+id/ad"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/searh"
+        android:layout_center="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baseline_table_rows_24" />
+
+    <ImageView
+        android:id="@+id/af"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/searh"
+        android:layout_center="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baseline_chevron_left_24" />
+
+</RelativeLayout>
